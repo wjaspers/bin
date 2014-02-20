@@ -1,6 +1,6 @@
 #!/bin/bash
-
-source "utils/inputs.sh"
+REPO_HOME=$(git rev-parse --show-toplevel)
+source "$REPO_HOME/utils/inputs.sh"
 
 BITS=''
 while [[ $BITS = '' ]]
