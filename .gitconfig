@@ -1,0 +1,14 @@
+[user]
+	name = Will Jaspers
+	email = wjaspers4@gmail.com
+[alias]
+	ci = commit
+	pl = pull
+	df = diff
+	ds = diff --staged
+	lg = log
+	br = branch -a
+	st = status
+[color]
+	diff = auto
+	interactive = auto
