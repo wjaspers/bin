@@ -7,6 +7,15 @@ if [ ! -z $1 ] && [ -d $1 ]; then
 fi
 MOST_RECENT=''
 
+TARGET_EXEC="./vendor/bin/phpunit"
+if [ ! -f $TARGET_EXEC ]; then
+    TARGET_EXEC=`command -v phpunit`
+    if [ $? -ne 0 ]; then
+        echo "Can't find PHPUnit"
+        exit 1
+    fi
+fi
+
 #
 # Look for any local filesystem changes, omitting
 # dotfiles and logs. Ideally this should ignore a lot
@@ -28,7 +37,7 @@ noFilesHaveChanged()
 #
 while : ; do
     if ! noFilesHaveChanged; then
-        ./vendor/bin/phpunit -c .
+        ./${TARGET_EXEC} -c .
     fi
     if [ ! $WATCH ]; then   
        break
