@@ -1,0 +1,36 @@
+[submodule "vim/pack/available/Colorizer"]
+	path = vim/pack/available/Colorizer
+	url = https://github.com/chrisbra/Colorizer.git
+[submodule "vim/pack/available/ale"]
+	path = vim/pack/available/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "vim/pack/available/editorconfig-vim"]
+	path = vim/pack/available/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/pack/available/vim-json"]
+	path = vim/pack/available/vim-json
+	url = https://github.com/elzr/vim-json.git
+[submodule "vim/pack/available/vim-javascript-syntax"]
+	path = vim/pack/available/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "vim/pack/available/vim-prettier"]
+	path = vim/pack/available/vim-prettier
+	url = https://github.com/prettier/vim-prettier.git
+[submodule "vim/pack/available/tsuquyomi"]
+	path = vim/pack/available/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
+[submodule "vim/pack/available/tcomment_vim"]
+	path = vim/pack/available/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "vim/pack/available/vim-markdown"]
+	path = vim/pack/available/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/pack/available/vim-airline"]
+	path = vim/pack/available/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/available/syntastic"]
+	path = vim/pack/available/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim/pack/available/nerdtree"]
+	path = vim/pack/available/nerdtree
+	url = https://github.com/preservim/nerdtree.git

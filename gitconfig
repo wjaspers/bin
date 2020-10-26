@@ -1,0 +1,23 @@
+[user]
+    email = wjaspers@users.noreply.github.com
+    name = Will Jaspers
+[alias]
+    ci = commit
+    pl = pull
+    df = diff
+    ds = diff --staged
+    lg = log
+    br = branch -a
+    st = status
+[color]
+    diff = auto
+    interactive = auto
+    ui = auto 
+[fetch]
+    prune = true
+[help]
+    autocorrect = 3
+[core]
+    editor = vim
+    excludesfile = ${HOME}/.gitignore--global
+    autocrlf = input
